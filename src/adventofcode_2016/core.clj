@@ -1,7 +1,11 @@
 (ns adventofcode-2016.core
   (:gen-class))
 
+
 (defn -main
-  "I don't do a whole lot ... yet."
+  "I currently just show stuff"
   [& args]
-  (println "Hello, World!"))
+  (println "Select a level")
+  (let [level (read-line)]
+    (println "You selected problem #" level)))
+
