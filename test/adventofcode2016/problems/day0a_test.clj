@@ -4,4 +4,4 @@
 
 (deftest testsolve
   (testing "Test that it solves correctly"
-    (is (= (day0a/solve "test/input/day0.txt") 1))))
+    (is (= (day0a/solve "test/adventofcode2016/input/day0.txt") "3"))))

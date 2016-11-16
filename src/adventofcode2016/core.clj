@@ -13,6 +13,6 @@
   (println "Select a level")
   (let [level (read-line)]
     (println "You selected problem #" level)
-    (call (str "adventofcode2016.problems.day" level) "solve" (str level ".txt"))))
+    (call (str "adventofcode2016.problems.day" level) "solve" (str "input/day" level ".txt"))))
 
 
