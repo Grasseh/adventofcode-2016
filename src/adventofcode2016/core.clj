@@ -4,7 +4,7 @@
 
 (defn call [nspace nm & args]
   (if-let [func (resolve (symbol nspace nm))] 
-    (apply (resolve(symbol nspace nm)) args)
+    (apply func args)
     (println "No problem found.")))
 
 (defn -main
