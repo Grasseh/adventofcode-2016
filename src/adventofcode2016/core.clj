@@ -2,6 +2,7 @@
   (:gen-class) 
   (:require [adventofcode2016.problems.day0a :as day0a])
   (:require [adventofcode2016.problems.day1a :as day1a])
+  (:require [adventofcode2016.problems.day1b :as day1b])
   )
 
 (defn call [nspace nm & args]
