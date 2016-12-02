@@ -20,3 +20,13 @@ Select a level
 You select problem #03b.
 Your solution is 1234567
 ```
+
+## Units tests
+
+Unit tests are set up using the default leiningen application framework. Simply run
+
+```
+10:47 - grasseh:~/projects/cloj/adventofcode-2016 (master) - lein test
+```
+
+Inputs for the tests are in ```test/input```. They are based on the examples provided in the official exemples. 
