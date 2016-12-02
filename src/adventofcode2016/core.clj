@@ -4,6 +4,7 @@
   (:require [adventofcode2016.problems.day1a :as day1a])
   (:require [adventofcode2016.problems.day1b :as day1b])
   (:require [adventofcode2016.problems.day2a :as day2a])
+  (:require [adventofcode2016.problems.day2b :as day2b])
   )
 
 (defn call [nspace nm & args]
