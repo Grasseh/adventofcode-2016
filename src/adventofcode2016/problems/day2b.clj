@@ -30,6 +30,7 @@
       "6" (case direction 
             "U" "2"
             "L" "5"
+            "R" "7"
             "D" "A"
             coords)
       "7" (case direction 
