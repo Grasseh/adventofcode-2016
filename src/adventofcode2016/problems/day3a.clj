@@ -27,7 +27,7 @@
     (showMeYaMoves lines)))
 
 (defn solve
-  "Returns the bathroom's code."
+  "Count the number of possible triangles."
   [filename]
   (let [solution (handleInput filename)]
     (println (str "Your solution is " solution))
