@@ -6,18 +6,21 @@
           (doall (line-seq r))))
 
 (defn triangle? [sidesList]
-    (and (= (+ (nth sidesList 1) (nth sidesList 2)) (nth sidesList 3)) 
-      (and (= (+ (nth sidesList 2) (nth sidesList 3)) (nth sidesList 1)) 
-         (= (+ (nth sidesList 1) (nth sidesList 3)) (nth sidesList 2)))))
+    (and (> (+ (nth sidesList 1) (nth sidesList 2)) (nth sidesList 0)) 
+      (and (> (+ (nth sidesList 2) (nth sidesList 0)) (nth sidesList 1)) 
+         (> (+ (nth sidesList 1) (nth sidesList 0)) (nth sidesList 2)))))
+
+(defn intThis [string]
+  (Integer. string))
 
 (defn turnIntoList [string]
-  (re-seq #"\d+" string))
+  (map intThis (re-seq #"\d+" string)))
 
 (defn countTriangle [inputList]
   (count (filter triangle? inputList)))
 
 (defn showMeYaMoves [inputList]
-  (map turnIntoList inputList))
+  (countTriangle (map turnIntoList inputList)))
 
 (defn handleInput [filename]
   (let [lines (get-lines filename)]
