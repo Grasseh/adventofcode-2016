@@ -4,5 +4,5 @@
 
 (deftest testsolve3a
   (testing "Test that it solves correctly"
-    (is (= (day3a/solve "test/adventofcode2016/input/day3.txt") 1))))
+    (is (= (day3a/solve "test/adventofcode2016/input/day3.txt") 3))))
 
