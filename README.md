@@ -30,3 +30,9 @@ Unit tests are set up using the default leiningen application framework. Simply 
 ```
 
 Inputs for the tests are in ```test/input```. They are based on the examples provided in the official exemples. 
+
+## Notes
+
+### Day 4 -- Problem 2
+
+Running The 2nd problem will not provide the solution, but a descrypted list of the input. Just copy paste the data to a text file and grep for "northpole"

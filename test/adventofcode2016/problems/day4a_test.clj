@@ -5,4 +5,3 @@
 (deftest testsolve4a
   (testing "Test that it solves correctly"
     (is (= (day4a/solve "test/adventofcode2016/input/day4.txt") 1514))))
-
